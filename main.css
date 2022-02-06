@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1{ color:White; text-align:center;
+}
+ 
+h2 { color:antiquewhite;text-align:center;
+   
+}
+h3{ color:rgb(32, 56, 77);text-align:left;
+}
+
+
+
+body {
+    
+    background-image: url("https://media.istockphoto.com/photos/vintage-photo-card-used-grunge-paper-background-picture-id1077316272?k=20&m=1077316272&s=612x612&w=0&h=2yZA9-aEMIge23LoojxLmAG5gsU5Dxi2m6uS_BmnYiE=");
+    height: 100%;
+    box-sizing: border-box;
+    filter: opacity(8px);
+   /* -webkit-filter: blur(8px);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Black w/opacity/see-through */
+bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+    
+img: url("https://media.istockphoto.com/photos/antique-books-in-a-library-picture-id185215276?k=20&m=185215276&s=612x612&w=0&h=JEkxZMqjiVieF1eD2FRUBz1eFsR0dHHwuUmtNu_9Vx4="); 
+}  
+ nav{
+     width: 50%;
+     float: right;
+ }
+.topnav{
+    overflow: auto;
+    background-color: rgb(131, 94, 68);
+    font-weight: bold;
+    margin: 10px;
+    line-height: 20px;
+  
+    }
+
+/*.topnav ul a{
+text-decoration: none;
+color: #fff;
+font-family: sans-serif
+text-transform: uppercase;
+}
+nav ul {
+list-style: none;
+float: right;*/
+}
+   nav ul {
+       display: inline-block;
+   }
+
+.topnav a {
+float: left;
+color: f2f2f2;
+text-align:center;
+padding: 14px; 16px;
+text-decoration: none;
+font-size: 24px;
+}
+.banner{
+    height: 100%;
+    .banner img{
+        width: 100%;
+        height: 90vh;
+    }
+}
+/*links change colors when you hover*/
+.topnav a:hover{
+    background-color:antiquewhite ;
+  color: black;
+}
+
+ </head>
+ </style>
