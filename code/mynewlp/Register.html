@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <header>
+      <div  class= "topnav" >          
+ 
+   <a class="active" href= "Index.html">Home</a>
+         <a href="About.html">About</a>
+         <a href="Shop.html">Shop</a>
+         <a href="Inventory.html">Inventory</a>
+       <a href="Contact.html">Contact Us</a>
+       <a href="Login.html" >Login</a>
+       <a href="Register.html">Register</a>
+    </header>
+       </div>
+</head>
+<body>
+    >
+    
+    
+    <h1>New Hire Registration</h1>
+    <div id= "form">
+     
+   <label> Enter your full name</label>
+
+    <input type="text"  name="username" size="30 "  placeholder=" Full Name" required>
+    <label> Enter your Date of Birth</label><br>
+
+    <td>
+        <input type="number" name="day" size="2"
+        maxlength="2" placeholder="Day" min="1" max="31" /> 
+<select name="month">
+<option value="month">Month</option>
+<option value="Jan">Jan</option>
+<option value="Feb">Feb</option>
+<option value="Mar">Mar</option>
+<option value="Apr">Apr</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="Aug">Aug</option>
+<option value="Sep">Sep</option>
+<option value="Oct">Oct</option>
+<option value="Nov">Nov</option>
+<option value="Dec">Dec</option>
+
+</select>
+<input type="text" name="year" size="5"
+        maxlength="4" placeholder="Year"  min="2003" max="2022" /> 
+       
+      </td>  
+</tr>
+
+    <!--<input type="number" name="day'  size='2" class="input-box" id="Date of Birth" placeholder="DOB" required></label>-->
+    <label> Enter your email</label><br>
+    <input type="email" name="email" size="30" maxlength="100" placeholder=" Email" required>
+  <br> 
+  <label> Enter your Phone Number</label><br>
+  <input type="number" name="Number" size="30" maxlength="12" placeholder=" Phone Number" required>
+  <br><label> Enter your Address </label><br>
+  <textarea> </textarea>
+
+  <br><label> Gender </label><br>
+  <input id="female" type="radio" name="gender"
+        value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender"
+         value="m">
+        <label for="male">Male</label><br>
+
+  <br><label> Employment Status </label><br>
+  <input id="Sales employees" type="radio" name="Job Title"
+        value="s">
+        <label for="Sales employee">Sales Clerk</label>
+        <input id="Managment" type="radio" name="Job Title"
+         value="m">
+        <label for="Managment">Manager</label><br>
+
+    <br><label> Enter your password </label>
+    <input type="password" class= "input-box" id="password" placeholder="Password" required><br>
+    
+  <input type="checkbox"><span>Remember Me</span>
+  <!--Want onClick to to send back to login page-->
+  <button type="button" class="btn" onClick="openLogin(login.html)"> I Have a Account</button> <br>
+  <a href="">Forgot Password</a><br><br>
+  
+    <button type="submit">Register</button><br> <br>
+    </form>  
+   
+    
+   
+</div>
+  </div>
+      <h4>Passwords will be provided by management. This Password is preset and can not be changed or altered in anyway by the new hire. If you have any questions please reach out to managment.</h4>    
+<img src="ProjectPhase2/nyc bookstore.jpg" width="500" height="400" alt="Employee working in a book store">
+
+
+</body>
+</html>

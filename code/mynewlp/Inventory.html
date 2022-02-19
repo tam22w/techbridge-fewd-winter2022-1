@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="CSS/main.css">
+
+    <h1>Inventory</h1>
+    <h3>All products that have been added, updated, deleted or sold can be found here.</h3> 
+    <div  class= "topnav" >
+    <a href="index.html">Home</a>  
+    <a href="About.html">About</a>
+    <a href="Shop.html">Shop</a>
+    <!--<a href="Inventory.html">Inventory</a>-->
+  <a href="Contact.html">Contact Us</a>
+  <a href="Login.html" >Login</a>
+    </div>
+
+    <h1>Add New Book Inventory</h1>
+    <div id= "form">
+     
+   <label> Title of the Book</label> <input type="text"  id="input-box"  placeholder=" Title" required>
+   <label> Autour of the Book</label> <input type="text"  id="input-box"  placeholder=" Authorized" required>
+   <label> Sales Price of the Book $</label> <input type="text"  id="input-box"  placeholder=" " required>
+   <label> Purchase Price of the Book$</label> <input type="text"  id="input-box"  placeholder="" required>
+   <label> Barcode of the Book</label> <input type="text"  id="input-box"  placeholder=" Barcode" required>
+   <label> Quantity Avaliable</label> <input type="text"  id="input-box"  placeholder=" Remaining in Stock" required>
+   <label> Category of the Book </label> <input type="text"  id="input-box"  placeholder="Genre " required>
+   <label> Condition of the Book </label> <input type="text"  id="input-box"  placeholder="Condition " required>
+   <label> Cover Type ofthe Book </label> <input type="text"  id="input-box"  placeholder="Hard/Paperback " required>
+   <label> Employee Initials</label> <input type="text"  id="input-box"  placeholder="User Initials" required>
+    
+  
+  <button type="Add">Add Book</button><br><br>
+  <!--Manager login to delete-->
+  <h1>Delete Book from Inventory</h1>
+  <br><label> Manager user name</label> 
+  <input type="text"  class="input-box" id="user name" placeholder="Manager User name" required> 
+  
+  <label></label> Enter manager password</label>
+  <input type="password" class= "input-box" id="password" placeholder="Manager Password" required>
+  
+
+  <button type="Delete">Delete Book </button>
+      <p><strong>**Manager must login to delete ANY inventory.<STRONG></STRONG></p>
+     <form action="/action_page.php">
+       <label for="books"
+     </form>
+    
+
+ <!--- <table border="10" cellpadding="10" cellspacing="0">
+    <tr>
+       <th>Number</th>
+       <th>Title</th>
+       <th>Author</th>
+       <th>Qty <select name="dropdown" id=""></select></th></th>
+        
+       </select> 
+       <th>Condition <select name="dropdown" id=" "></select></th></th>
+       <th>Purchase Price</th>
+       <th>Sales Price</th>
+       <th>Status <select name="dropdown" id=""></select></th>
+       <th>Location</th>
+       <th>Cover Type <select name="dropdown" id="Instock"></select></th></th>
+       <th>Notes/Other</th>
+    </tr>
+   </div>
+ </div>
+    <tr>
+         <td>1.</td>
+         <td>Thomas Sowell: A Self-made Man:The Political Life of Abrham Lincoln</td> 
+         <td>Sidney Blumenthal</td> 
+         <td>2</td>
+         <td>Good</td>
+         <td>$8.00</td> 
+         <td>$25.00</td> 
+         <td>Instock</td>
+         <td>Main Store-01</td> 
+         <td>Hardcover</td> 
+         <td>146pgs</td>
+ 
+    </tr>
+          <td>2.</td>
+         <td>The Great Gatsby</td> 
+         <td>F. Scott Fitzgerald</td> 
+         <td>1</td>
+         <td>Good</td>
+         <td>$11.00</td> 
+         <td>$50.00</td> 
+         <td>Instock</td>
+         <td>Main Store-01</td> 
+         <td>Paperback</td> 
+         <td>208pgs</td>
+         <tr>
+             <td>3.</td>
+             <td>Angelmaker</td> 
+             <td>Nick Harkaway</td> 
+             <td>2</td>
+             <td>Good</td>
+             <td>$18.00</td> 
+             <td>$75.00</td> 
+             <td>Instock</td>
+             <td>Main Store-01</td> 
+             <td>Hardcover</td> 
+             <td>346pgs</td>
+   
+        </tr>
+              <td>4.</td>
+             <td>Annabel</td> 
+             <td>Kathleen Winter</td> 
+             <td>1</td>
+             <td>Used</td>
+             <td>$11.00</td> 
+             <td>$50.00</td> 
+             <td>Instock</td>
+             <td>Main Store-01</td> 
+             <td>Paperback</td> 
+             <td>208pgs</td>
+             <tr>
+                 <td>5.</td>
+                 <td>Atonement</td> 
+                 <td>Ian McEwan</td> 
+                 <td>2</td>
+                 <td>Good</td>
+                 <td>$10.00</td> 
+                 <td>$55.00</td> 
+                 <td>Instock</td>
+                 <td>Main Store-01</td> 
+                 <td>Hardcover</td> 
+                 <td>246pgs</td>
+       
+            </tr>
+                  <td>6.</td>
+                 <td>Ash</td> 
+                 <td>Milinda Lo</td> 
+                 <td>1</td>
+                 <td>Good</td>
+                 <td>$11.00</td> 
+                 <td>$50.00</td> 
+                 <td>Instock</td>
+                 <td>Main Store-01</td> 
+                 <td>Paperback</td> 
+                 <td>208pgs</td>
+                 <tr>
+                     <td>7.</td>
+                     <td>Away</td> 
+                     <td>Amy Bloom</td> 
+                     <td>2</td>
+                     <td>Good</td>
+                     <td>$5.00</td> 
+                     <td>$25.00</td> 
+                     <td>Instock</td>
+                     <td>Main Store-01</td> 
+                     <td>Hardcover</td> 
+                     <td>159pgs</td>
+           
+                </tr>
+                      <td>8.</td>
+                     <td>Autumn</td> 
+                     <td>Ali Smith</td> 
+                     <td>2</td>
+                     <td>Good</td>
+                     <td>$11.00</td> 
+                     <td>$50.00</td> 
+                     <td>Instock</td>
+                     <td>Main Store-01</td> 
+                     <td>Paperback</td> 
+                     <td>288pgs</td>
+                     <tr>
+                         <td>9.</td>
+                         <td>Battleborn</td> 
+                         <td>Claire Vaye Watkins</td> 
+                         <td>2</td>
+                         <td>Good</td>
+                         <td>$18.00</td> 
+                         <td>$65.00</td> 
+                         <td>Instock</td>
+                         <td>Main Store-01</td> 
+                         <td>Hardcover</td> 
+                         <td>346pgs</td>
+               
+                    </tr>
+                          <td>10.</td>
+                         <td>Beloved</td> 
+                         <td>Toni Morrison</td> 
+                         <td>2</td>
+                         <td>Good</td>
+                         <td>$11.00</td> 
+                         <td>$50.00</td> 
+                         <td>Instock</td>
+                         <td>Main Store-01</td> 
+                         <td>Paperback</td> 
+                         <td>208pgs</td>
+               
+ </table>-->
+
+ 
+ 
+ <body>
+     <h1 style="text-align: center">View Book Inventory</h1>
+    
+     <div id="controls" class="controls">
+         <button id="btnSortIt" onclick="sortIt();">Sort It</button>
+         <button id="Reset" onclick="reloadPage();">Reset</button>
+     </div>
+ <!--Row1-->
+    <!<div id="original">
+         <div id="row0" class="row">
+             <div class="column center yellow">
+                 <span id="span1-1">Title</span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span1-2">Author</Title></span>
+             </div>
+             <div class="column center yellow ">
+                 <span id="span1-3">Qty</span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span2-1">Condition</span>
+             </div>
+             <div class="column center yellow ">
+                 <span id="span2-2">Purchased Price:</span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span2-3"> SalesPrice:</span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span3-1">Status</span>
+             </div>
+             <div class="column center yellow">
+              <span id="span3-1">Locatio</span>
+          </div>
+             <div class="column center yellow ">
+                 <span id="span3-2">Cover Type</span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span3-3">Notes/Initials</span>
+             </div>
+
+
+             <div id="original">
+<!--Row2-->
+              <div id="row0" class="row">
+                  <div class="column center yellow">
+                      <span id="span1-1">Thomas Sowell: A Self-made Man:The Political Life of Abrham Lincoln 	</span>
+                  </div>
+                  <div class="column center yellow">
+                      <span id="span1-2"></Title>Sidney Blumenthal</span>
+                  </div>
+                  <div class="column center yellow">
+                      <span id="span1-3">3</span>
+                  </div>
+                  <div class="column center yellow">
+                      <span id="span2-1">Good</span>
+                  </div>
+                  <div class="column center yellow">
+                      <span id="span2-2"> $8.00</span>
+                  </div>
+                  <div class="column center yellow ">
+                      <span id="span2-3">$25.00</span>
+                  </div>
+                  <div class="column center yellow">
+                      <span id="span3-1">Instock</span>
+                  </div>
+                  <div class="column center yellow">
+                    <span id="span3-1">Main Store-01</span>
+                </div>
+                  <div class="column center yellow ">
+                      <span id="span3-2"> Hardcover </span>
+                  </div>
+                  <div class="column center yellow">
+                      <span id="span3-3">146pges/T.A.</span>
+                  </div>
+         </div>
+     </div>
+     <div id="results">
+         <div id="resultsRow" class="row"></div>
+     </div>
+
+     <!--Row3-->
+    <!<div id="original">
+      <div id="row0" class="row">
+          <div class="column center yellow">
+              <span id="span1-1">Angelmaker</span>
+          </div>
+          <div class="column center yellow">
+              <span id="span1-2">Nick Harkaway</span>
+          </div>
+          <div class="column center yellow ">
+              <span id="span1-3">2</span>
+          </div>
+          <div class="column center yellow">
+              <span id="span2-1">Good</span>
+          </div>
+          <div class="column center yellow ">
+              <span id="span2-2">$18.00</span>
+          </div>
+          <div class="column center yellow">
+              <span id="span2-3">$75.00</span>
+          </div>
+          <div class="column center yellow">
+              <span id="span3-1">Instock</span>
+          </div>
+          <div class="column center yellow">
+            <span id="span3-1">Main Store-01</span>
+        </div>
+          <div class="column center yellow ">
+              <span id="span3-2">Hardcover </span>
+          </div>
+          <div class="column center yellow">
+              <span id="span3-3">346pgs/T.A.</span>
+          </div>
+
+          <div id="original">
+<!--Row4-->
+           <div id="row0" class="row">
+               <div class="column center yellow">
+                  <span id="span1-1">Annabel </div>
+               <div class="column center yellow">
+                 <span id="span1-2">Kathleen Winter</span>
+               </div>
+               <div class="column center yellow">
+                   <span id="span1-3">1</span>
+               </div>
+               <div class="column center yellow">
+                   <span id="span2-1">Used</span>
+               </div>
+               <div class="column center yellow">
+                   <span id="span2-2"> $11.00</span>
+               </div>
+               <div class="column center yellow ">
+                   <span id="span2-3">$50.00</span>
+               </div>
+               <div class="column center yellow">
+                   <span id="span3-1">Instock</span>
+               </div>
+               <div class="column center yellow">
+                <span id="span3-1">Main Store-01</span>
+            </div>
+               <div class="column center yellow ">
+                   <span id="span3-2"> Paperback </span>
+               </div>
+               <div class="column center yellow">
+                   <span id="span3-3">208pges</span>
+               </div>
+      </div>
+  </div>
+  <div id="results">
+      <div id="resultsRow" class="row"></div>
+    
+  </div>
+  <!--Row5-->
+  <!<div id="original">
+    <div id="row0" class="row">
+        <div class="column center yellow">
+            <span id="span1-1">Atonement</span>
+        </div>
+        <div class="column center yellow">
+            <span id="span1-2">Ian McEwan</span>
+        </div>
+        <div class="column center yellow ">
+            <span id="span1-3">2</span>
+        </div>
+        <div class="column center yellow">
+            <span id="span2-1">Good</span>
+        </div>
+        <div class="column center yellow ">
+            <span id="span2-2">$10.00</span>
+        </div>
+        <div class="column center yellow">
+            <span id="span2-3">$55.00</span>
+        </div>
+        <div class="column center yellow">
+            <span id="span3-1">Instock</span>
+        </div>
+        <div class="column center yellow">
+          <span id="span3-1">Main Store-01</span>
+      </div>
+        <div class="column center yellow ">
+          <span id="span3-2">Hardcover</span>
+        </div>
+        <div class="column center yellow">
+            <span id="span3-3">246pgs/T.A.</span>
+        </div>
+
+        <div id="original">
+<!--Row6-->
+         <div id="row0" class="row">
+             <div class="column center yellow">
+                 <span id="span1-1">Ash </div>
+             <div class="column center yellow">
+                 <span id="span1-2">Milinda Lo </span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span1-3">1 </span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span2-1">Good</span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span2-2"> $25.00</span>
+             </div>
+             <div class="column center yellow ">
+                 <span id="span2-3">$8.00</span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span3-1">Instock</span>
+             </div>
+             <div class="column center yellow">
+              <span id="span3-1">Main Store-01</span>
+          </div>
+             <div class="column center yellow ">
+                 <span id="span3-2"> Hardcover </span>
+             </div>
+             <div class="column center yellow">
+                 <span id="span3-3">208pges/T.A.</span>
+             </div>
+    </div>
+</div>
+<div id="results">
+    <div id="resultsRow" class="row"></div>
+</div>
+
+<!--Row7-->
+<div id="original">
+ <div id="row0" class="row">
+     <div class="column center yellow">
+         <span id="span1-1">Away</span>
+     </div>
+     <div class="column center yellow">
+         <span id="span1-2">Amy Bloom</span>
+     </div>
+     <div class="column center yellow ">
+         <span id="span1-3">2</span>
+     </div>
+     <div class="column center yellow">
+         <span id="span2-1">Condition</span>
+     </div>
+     <div class="column center yellow ">
+         <span id="span2-2">$5.00</span>
+     </div>
+     <div class="column center yellow">
+         <span id="span2-3">$25.00</span>
+     </div>
+     <div class="column center yellow">
+         <span id="span3-1">Instock</span>
+     </div>
+     <div class="column center yellow">
+      <span id="span3-1">Main Store-01</span>
+  </div>
+
+     <div class="column center yellow ">
+         <span id="span3-2</span>
+     </div>
+     <div class="column center yellow">
+         <span id="span3-3">Notes/Other</span>
+     </div>
+
+     <div id="original">
+<!--Row8-->
+      <div id="row0" class="row">
+          <div class="column center yellow">
+              <span id="span1-1"> Autumn </span>
+             </div>
+          <div class="column center yellow">
+              <span id="span1-2">Ali Smith </span>
+          </div>
+          <div class="column center yellow">
+              <span id="span1-3">2</span>
+          </div>
+          <div class="column center yellow">
+              <span id="span2-1">Good</span>
+          </div>
+          <div class="column center yellow">
+              <span id="span2-2"> $11.00</span>
+          </div>
+          <div class="column center yellow ">
+              <span id="span2-3">$50.00</span>
+          </div>
+          <div class="column center yellow">
+              <span id="span3-1">Instock</span>
+          </div>
+          <div class="column center yellow">
+            <span id="span3-1">Main Store-01</span>
+        </div>
+
+          <div class="column center yellow ">
+              <span id="span3-2"> Paperback </span>
+          </div>
+          <div class="column center yellow">
+              <span id="span3-3">288pges/T.A.</span>
+          </div>
+ </div>
+</div>
+<div id="results">
+ <div id="resultsRow" class="row"></div>
+</div>
+
+
+<!--Row9-->
+<!<div id="original">
+  <div id="row0" class="row">
+      <div class="column center yellow">
+          <span id="span1-1">Battleborn</span>
+      </div>
+      <div class="column center yellow">
+          <span id="span1-2">Claire Vaye Watkins</span>
+      </div>
+      <div class="column center yellow ">
+          <span id="span1-3">2</span>
+      </div>
+      <div class="column center yellow">
+          <span id="span2-1">$18.00</span>
+      </div>
+      <div class="column center yellow ">
+          <span id="span2-2">$65.00</span>
+      </div>
+      <div class="column center yellow">
+          <span id="span2-3">Sales Price</span>
+      </div>
+      <div class="column center yellow">
+          <span id="span3-1">Instock</span>
+      </div>
+      <div class="column center yellow">
+        <span id="span3-1">Main Store-01</span>
+    </div>
+      <div class="column center yellow ">
+          <span id="span3-2">Hardcover</span>
+      </div>
+      <div class="column center yellow">
+          <span id="span3-3">346pgs</span>
+      </div>
+ 
+      <div id="original">
+ <!--Row10-->
+       <div id="row0" class="row">
+           <div class="column center yellow">
+               <span id="span1-1">Beloved</span>
+           </div>
+           <div class="column center yellow">
+               <span id="span1-2">Sidney Toni Morrison</span>
+           </div>
+           <div class="column center yellow">
+               <span id="span1-3">2</span>
+           </div>
+           <div class="column center yellow">
+               <span id="span2-1">Good</span>
+           </div>
+           <div class="column center yellow">
+               <span id="span2-2"> $11.00</span>
+           </div>
+           <div class="column center yellow ">
+               <span id="span2-3">$50.00</span>
+           </div>
+           <div class="column center yellow">
+               <span id="span3-1">Instock</span>
+           </div>
+           <div class="column center yellow">
+            <span id="span3-1">Main Store-01</span>
+        </div>
+           <div class="column center yellow ">
+               <span id="span3-2"> Paperback </span>
+           </div>
+           <div class="column center yellow">
+               <span id="span3-3">208pgs/T.A.</span>
+           </div>
+  </div>
+ </div>
+ <div id="results">
+  <div id="resultsRow" class="row"></div>
+ </div>
+ </body>
+ 
+ </html>
+ 
+
+</body>
+</html>-->
+

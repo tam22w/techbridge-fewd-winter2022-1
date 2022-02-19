@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Sort the items</title>
+     <title>Sort the items</title>
+     <style>
+
+
+    }
+    
+    }
+    
+
+ /*flexboxbook book image gallery design*/
+    .wrapper h1{
+      text-align: center;
+      font-size: 30px;
+      font-family: Audiowide;
+    }
+    
+     .img-area {
+      display: flex;
+      flex-wrap: wrap;
+      /*background-color: antiqewhite;*/
+      flex-direction: :row;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    
+    .single-img {
+      padding: 0 20px 20px;
+
+    }
+    .img: hover{
+      opacity: .5;
+      transition: .9s;
+    }
+    .flex-container > div {
+      background-color:burlywood;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+    }
+
+         /* styling for the rows */
+         .row {
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+             width: 100%;
+             height: 100px
+         }
+ 
+         /* styling for the columns */
+         .column {
+             display: flex;
+             flex-direction: column;
+             flex-basis: 100%;
+             flex: 1;
+             border: 1px solid black;
+         }
+ 
+         .controls {
+             margin: 20px;
+         }
+ 
+         .center {
+             text-align: center;
+         }
+ 
+         span {
+             padding-top: 40px;
+             font-weight: bold;
+             font-size: x-large;
+         }
+ 
+         .blue {
+             background-color: blue;
+         }
+ 
+         .red {
+             background-color: red;
+         }
+ 
+         .yellow {
+             background-color: lightyellow
+         }
+     </style>
+     <script src="./scripts.js" defer></script>
+ </head>
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://media.istockphoto.com/photos/vintage-photo-card-used-grunge-paper-background-picture-id1077316272?k=20&m=1077316272&s=612x612&w=0&h=2yZA9-aEMIge23LoojxLmAG5gsU5Dxi2m6uS_BmnYiE="); 
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+/*home page*/
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: transparent;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: antiquewhite;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background: url('https://goo.gl/YbktSj');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+<style>
+
+h1{ color:black; text-align:center;
+}
+ 
+h2 { color:antiquewhite;text-align:center;
+   
+}
+h3{ color:rgb(32, 56, 77);text-align:left;
+}
+
+
+
+body {
+    
+    background-image: url("https://media.istockphoto.com/photos/vintage-photo-card-used-grunge-paper-background-picture-id1077316272?k=20&m=1077316272&s=612x612&w=0&h=2yZA9-aEMIge23LoojxLmAG5gsU5Dxi2m6uS_BmnYiE=");
+    height: 100%;
+    box-sizing: border-box;
+    filter: opacity(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     Black w/opacity/see-through 
+bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+    
+img: url("https://media.istockphoto.com/photos/antique-books-in-a-library-picture-id185215276?k=20&m=185215276&s=612x612&w=0&h=JEkxZMqjiVieF1eD2FRUBz1eFsR0dHHwuUmtNu_9Vx4="); 
+}  
+ nav{
+     width: 50%;
+     float: right;
+ }
+.topnav{
+    overflow: auto;
+    background-color: rgb(131, 94, 68);
+    font-weight: bold;
+    margin: 10px;
+    line-height: 20px;
+  
+    }
+
+.topnav ul a{
+text-decoration: none;
+color: #fff;
+font-family: sans-serif
+text-transform: uppercase;
+}
+nav ul {
+list-style: none;
+float: right;
+}
+   nav ul {
+       display: inline-block;
+   }
+
+.topnav a {
+float: left;
+color:  antiquewhite;
+text-align:center;
+padding: 14px; 16px;
+text-decoration: none;
+font-size: 24px;
+}
+.banner{
+    height: 100%;
+    .banner img{
+        width: 100%;
+        height: 90vh;
+    }
+}
+/*links change colors when you hover*/
+.topnav a:hover{
+    background-color:antiquewhite ;
+  color: black;
+}
+
+}
+.container {
+    width: 100;
+    min-height: 10vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,8,51,0.9)), (rgba(0,8,51,0.9)),url (images/background.jpg);
+    bacground-color: antiquewhite;
+    background-position:center;
+    background-size:cover; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+}
+.search-bar{
+    width: 100;
+    max-height: 700px;
+    padding: 10px 20px;
+    background:(rgba(255, 255, 255, 0.2);
+    border-radius: 60px;
+    backdrop-filter:blur(4px); saturate(180%);
+    display: flex;
+    align-items: center;
+
+}
+
+.search-bar input {
+    flex: 1;
+    border:0;
+    padding: 24px 20px;
+    background:transparent;
+    font-size:20px;
+    outline:none;
+    color: #cac7ff;
+}
+
+::placeholder{
+    color: #bfbfc9;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    width: 60px;
+    height: 60px;
+    padding: 10px 20px;
+    background:#58629b;
+    border: 0;
+    border-radius: 50%;
+    curser:pointer;
+}
+
+}
+.input-box{
+
+}*/
+
+</head>
+ </style>
+
+
+ 
+     <title>Sort the items</title>
+     <style>*/
+         /* styling for the rows */
+         .row {
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+             width: 100%;
+             height: 100px
+         }
+ 
+         /* styling for the columns */
+         .column {
+             display: flex;
+             flex-direction: column;
+             flex-basis: 100%;
+             flex: 1;
+             border: 1px solid black;
+         }
+ 
+         .controls {
+             margin: 20px;
+         }
+ 
+         .center {
+             text-align: center;
+         }
+ 
+         span {
+             padding-top: 40px;
+             font-weight: bold;
+             font-size: x-large;
+         }
+ 
+ 
+         
+    
+ </head>
+ <body>
+
